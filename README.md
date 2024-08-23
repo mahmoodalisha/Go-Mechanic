@@ -2,6 +2,10 @@
 
 Go-Mechanic is a React-based application designed to help users locate their current position using the Here API and make phone calls through the Twilio API. This app provides users with a convenient way to get their location on a map and directly contact services.
 
+![Screenshot 2024-08-23 184455](https://github.com/user-attachments/assets/b7ce412d-bd69-4087-8570-9dc698e5e67f)
+
+
+![Screenshot 2024-08-23 184511](https://github.com/user-attachments/assets/b77f540e-de57-46ad-aa23-bf534585ea44)
 
 Features
 Location Tracking: Utilizes the Here API to fetch and display the user's current location on a map.
