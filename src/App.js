@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Map from "./components/Map";
+import MakeCall from "./components/MakeCall";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header-container2">
+        <h1>Go-Mechanic</h1>
+      </div>
+      <div className="header-container">
+        <h2>Stranded on the road with a broken-down vehicle? No worries! Our app connects you with skilled mechanics right when you need them most. Simply call for help directly from the app, and a trusted mechanic will be on their way to get you back on the road in no time. Reliable assistance is just a tap away.</h2>
+      </div>
+      <div className="map-container">
+        <Map />
+      </div>
+      <div className="call-section">
+        <MakeCall />
+      </div>
     </div>
   );
 }
 
 export default App;
+
